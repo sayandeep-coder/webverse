@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html ,body {
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    background-image: url("/aiml/stock-vector-minimalistic-circular-logo-sample-vector-2278726727.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 60px;
+    transition: all 2s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(2,0);
+}
+
+
+
+.nav-elements {
+    display: flex;
+    gap: 30px;
+}
+
+.n-a:hover {
+    text-decoration: underline;
+    background-color: skyblue;
+}
+
+.n-b:hover {
+    text-decoration: underline;
+    background-color: skyblue;
+}
+
+.n-c:hover {
+    text-decoration: underline;
+    background-color: skyblue;
+}
+
+.main {
+    height: 450px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.main left {
+    height: 450px;
+    width: 50%;
+}
+.main right {
+    height: 450px;
+    width: 50%;
+    
+}
+
+.main img {
+    height: 150px;
+    width: 150px;
+    background-image: url("/aiml/WhatsApp\ Image\ 2025-05-11\ at\ 13.58.41.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn1 {
+    height: 50px;
+    width: 150px;
+}
+
+.btn1:hover {
+    background-color: red;
+}
+
+.hero {
+    height: 300px;
+    background-color: black;
+    color: white;
+}
+
+.nav {
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box1 {
+    height: 150px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+.box2 {
+    height: 150px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+.text-c {
+    text-decoration: center;
+}
+
+.last {
+    height: 600px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    
+}
+
+.l-p {
+    text-align: center;
+    font-weight: 600;
+}
+
+.p-img {
+    height: 150px;
+    width: 400px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 350px;
+}
+
+footer {
+    text-align: center;
+}
+
+
+
+@media (max-width:600px) {
+    .logo {
+        margin-left: 5px;
+    }
+    .nav-elements {
+        margin-right: 5px;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .main left {
+        height: 250px;
+        width: 100%;
+    }
+    .text {
+        text-align: center;
+    }
+    .para {
+        text-align: center;
+    }
+    .btn1 {
+        margin-left: 100px;
+    }
+    .main right {
+        height: 200px;
+        width: 100%;
+    }
+    .right img {
+        height: 70px;
+        width: 70px;
+    }
+    .box {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .box1 {
+        height: 100px;
+        width: 300px;
+    }
+    .box2 {
+        height: 100px;
+        width: 300px;
+    }
+    .p-img {
+        position: relative;
+        right: 350px;
+    }
+}
